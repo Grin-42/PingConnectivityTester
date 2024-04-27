@@ -1,4 +1,4 @@
-_This script will check ping connectivity along the routes to destinations in $routeTargets. _
+This script will check ping connectivity along the routes to destinations in $routeTargets.
 
 **Script tips:**
 
