@@ -2,6 +2,10 @@ __This script will check ping connectivity along the routes to destinations in $
 <br>
 ## **Script tips:**
 
+-Open PingLog.txt in either Sublime Text or Notepad++. Opening it in Notepad will lock the file and prevent logs from writing to it.
+
+-Copy+paste the code into Powershell ISE as opposed to downloading the script. It is simplest to modify variables and start/stop the script as needed from ISE. To start it ctrl+a the code and run it with F8 or the Run Selection button at the top. To stop it push the Stop Operation button.
+
 -It is useful to run this from at least two devices on the network simultaneously. This greatly helps determine local issues at different parts of the network.
 
 -If there is a switch between the source PC and the router it is a good idea to either add the switch IP or IP of another device connected to the switch in $additionalIPs.
