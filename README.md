@@ -1,4 +1,4 @@
-__This script will check ping connectivity along the routes to destinations in $routeTargets.__
+__This script will check ping connectivity along the routes to destinations in $routeTargets. The results are stored in C:\temp\PingLog.txt.__
 <br>
 ## **Script tips:**
 
