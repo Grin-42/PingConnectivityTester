@@ -24,4 +24,4 @@ __This script will check ping connectivity along the routes to destinations in $
 
 -The first IP in the list is most likely your router and the IP after your router is your ISP gateway.
 
--8.8.8.8 is the public Google DNS server, 1.1.1.1 is the public Cloudflare DNS server. Other IPs or FQDN (ie google.com) can be added to $routeTargets but there is no guarantee they will provide useful rest responses. 8.8.8.8 and 1.1.1.1 are open to response and their routes tend to be more useful as well.
+-8.8.8.8 is the public Google DNS server, 1.1.1.1 is the public Cloudflare DNS server. Other IPs or FQDN (ie google.com) can be added to $routeTargets but there is no guarantee they will provide useful responses. 8.8.8.8 and 1.1.1.1 are open to response and their routes tend to be more useful as well.
