@@ -5,7 +5,7 @@ $log = "C:\temp\PingLog.txt"
 add-content $log ("------------`n`n`nRoute connectivity tester started at " + (Get-Date -Format "MM/dd HH:mm:ss"))
 
 $routeTargets = [System.Collections.ArrayList]@("8.8.8.8", "1.1.1.1")
-$additionalIPs = [System.Collections.ArrayList]@("192.168.0.151")
+$additionalIPs = [System.Collections.ArrayList]@()
 
 $routeList = [System.Collections.ArrayList]@()
 foreach ($routeTarget in $routeTargets){
