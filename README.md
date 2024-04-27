@@ -1,6 +1,6 @@
-This script will check ping connectivity along the routes to destinations in $routeTargets. 
+_This script will check ping connectivity along the routes to destinations in $routeTargets. _
 
-Script tips:
+**Script tips:**
 
 -It is useful to run this from at least two devices on the network simultaneously. This greatly helps determine local issues at different parts of the network.
 
@@ -13,7 +13,7 @@ Script tips:
 -$downCountTreshold is set to 2 to account for normal amounts of packet loss. If one of the IPs never responds or if there are more than 10 or so IPs this can be increased to reduce false positives. This is more useful when it might not be clear when the network goes down. If the outage time is known search for the time and ignore this test entirely.
 
 
-Additional troubleshooting info:
+**Additional troubleshooting info:**
 
 -The standard threshold of packet loss is 4%. There will be a lot of random Down results under normal conditions. The main thing to look for is repeated Down results, particularly if there are multiple consistent down results at the same time.
 
