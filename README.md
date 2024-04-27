@@ -11,10 +11,10 @@ $downCountTreshold is set to 2 to account for normal amounts of packet loss. If 
 
 Additional troubleshooting info:
 
-The standard threshold of packet loss is 4%. There will be a lot of random Down results under normal conditions. The main thing to look for is repeated Down results, particularly if there are multiple consistent down results at the same time.
+-The standard threshold of packet loss is 4%. There will be a lot of random Down results under normal conditions. The main thing to look for is repeated Down results, particularly if there are multiple consistent down results at the same time.
 
-The first IP in the list is most likely your router and the IP after your router is your ISP gateway.
+-The first IP in the list is most likely your router and the IP after your router is your ISP gateway.
 
-8.8.8.8 is the public Google DNS server, 1.1.1.1 is the public Cloudflare DNS server.
+-8.8.8.8 is the public Google DNS server, 1.1.1.1 is the public Cloudflare DNS server.
 
-It is useful to run this from at least two devices on the network simultaneously.
+-It is useful to run this from at least two devices on the network simultaneously.
